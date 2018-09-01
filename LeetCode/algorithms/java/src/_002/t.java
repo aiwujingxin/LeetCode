@@ -1,4 +1,4 @@
-package algorithms.java;
+package algorithms.java.src._002;
 
 public class t {
 }
