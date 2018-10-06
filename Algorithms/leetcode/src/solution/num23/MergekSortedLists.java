@@ -1,6 +1,6 @@
-package solution.num23;
+package algorithms.src.solution.num23;
 
-import baseclass.ListNode;
+import algorithms.src.baseclass.ListNode;
 
 import java.util.PriorityQueue;
 

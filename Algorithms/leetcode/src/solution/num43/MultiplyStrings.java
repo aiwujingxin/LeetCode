@@ -1,4 +1,4 @@
-package solution.num43;
+package algorithms.src.solution.num43;
 
 /**
  * @program: LeetCode

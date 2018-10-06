@@ -1,4 +1,4 @@
-package solution;
+package algorithms.src.solution;
 
 public class TowSum {
 

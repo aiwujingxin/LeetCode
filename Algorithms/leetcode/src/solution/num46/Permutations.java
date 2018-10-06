@@ -1,4 +1,4 @@
-package solution.num46;
+package algorithms.src.solution.num46;
 
 import java.util.List;
 

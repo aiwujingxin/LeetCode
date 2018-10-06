@@ -1,4 +1,4 @@
-package solution.num8;
+package algorithms.src.solution.num8;
 
 import javax.print.DocFlavor;
 
