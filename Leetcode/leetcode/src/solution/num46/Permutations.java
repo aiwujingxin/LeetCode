@@ -20,6 +20,7 @@ public class Permutations {
      * */
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
+
         if (nums == null || nums.length == 0 ) return res;
         helper(res, new ArrayList<>(), nums);
 
