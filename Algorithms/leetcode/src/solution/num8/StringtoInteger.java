@@ -1,6 +1,4 @@
-package algorithms.src.solution.num8;
-
-import javax.print.DocFlavor;
+package leetcode.src.solution.num8;
 
 /**
  * @program: LeetCode

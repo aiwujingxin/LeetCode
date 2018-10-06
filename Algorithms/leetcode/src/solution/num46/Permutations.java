@@ -1,4 +1,4 @@
-package algorithms.src.solution.num46;
+package leetcode.src.solution.num46;
 
 import java.util.List;
 

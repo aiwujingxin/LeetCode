@@ -1,4 +1,4 @@
-package algorithms.src.baseclass;
+package leetcode.src.baseclass;
 
 /**
  * @program: LeetCode

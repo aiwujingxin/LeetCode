@@ -1,6 +1,6 @@
-package algorithms.src.solution.num23;
+package leetcode.src.solution.num23;
 
-import algorithms.src.baseclass.ListNode;
+import leetcode.src.baseclass.ListNode;
 
 import java.util.PriorityQueue;
 
