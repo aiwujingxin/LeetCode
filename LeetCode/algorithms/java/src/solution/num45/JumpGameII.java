@@ -55,7 +55,7 @@ public class JumpGameII {
         while (curMaxArea - i + 1 > 0 ) {
             level++;
             for (; i <= curMaxArea; i++){
-                maxNext = Math.max(maxNext, nums[i] + 1) ;
+                maxNext = Math.max(maxNext, nums[i] + i) ;
                 if (maxNext >= nums.length - 1) {
                     return level;
                 }
