@@ -1,5 +1,4 @@
-package leetcode.src.solution.num43;
-
+package solution.num43;
 /**
  * @program: LeetCode
  * @description:

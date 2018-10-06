@@ -1,4 +1,4 @@
-package leetcode.src.solution.num23;
+package solution.num23;
 
 import leetcode.src.baseclass.ListNode;
 

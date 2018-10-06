@@ -1,4 +1,4 @@
-package leetcode.src.solution.num8;
+package solution.num08;
 
 /**
  * @program: LeetCode
