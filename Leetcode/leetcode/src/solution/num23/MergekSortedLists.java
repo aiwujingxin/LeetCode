@@ -1,6 +1,6 @@
 package solution.num23;
 
-import leetcode.src.baseclass.ListNode;
+import baseclass.ListNode;
 
 import java.util.PriorityQueue;
 

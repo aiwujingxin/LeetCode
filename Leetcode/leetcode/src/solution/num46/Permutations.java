@@ -20,11 +20,9 @@ public class Permutations {
      * */
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
-
         if (nums == null || nums.length == 0 ) return res;
         helper(res, new ArrayList<>(), nums);
-
-       return res;
+        return res;
     }
 
     private void helper(List<List<Integer>> res, ArrayList<Integer> list, int[] nums) {
@@ -36,7 +34,7 @@ public class Permutations {
             if (list.contains(nums[i])) continue; //O(n)
             list.add(nums[i]);
             helper(res, list, nums);
-            list.remove(list.size() -1 );
+            list.remove(list.size() -1);
         }
     }
 
@@ -52,7 +50,7 @@ public class Permutations {
         return res;
     }
 
-    private void helper2(List<List<Integer>> res,int start, int[] nums) {
+    private void helper2(List<List<Integer>> res, int start, int[] nums) {
         if (start == nums.length){
             List<Integer> list = new ArrayList<>();
             for (int num : nums) {
@@ -63,7 +61,7 @@ public class Permutations {
         }
         for (int i = start; i < nums.length; i++) {
             swap(nums, start, i);
-            helper2(res, start +1 , nums);
+            helper2(res, start + 1 , nums);
             swap(nums, start ,i);
         }
     }
@@ -72,5 +70,11 @@ public class Permutations {
         int temp = nums[l];
         nums[l] = nums[r];
         nums[r] = temp;
+    }
+
+    public static void main(String[] args) {
+        int[] a = new int[]{1, 2 ,3};
+        Permutations permutations = new Permutations();
+        permutations.permute2(a);
     }
 }
