@@ -1,4 +1,4 @@
-package leetcode.src.solution;
+package solution.num01;
 
 public class TowSum {
 
