@@ -1,4 +1,4 @@
-package solution.num94;
+package solution.num1_100.num94;
 
 import baseclass.TreeNode;
 

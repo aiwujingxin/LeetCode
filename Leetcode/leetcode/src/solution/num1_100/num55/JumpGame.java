@@ -1,4 +1,4 @@
-package solution.num55;
+package solution.num1_100.num55;
 
 /**
  * @program: LeetCode

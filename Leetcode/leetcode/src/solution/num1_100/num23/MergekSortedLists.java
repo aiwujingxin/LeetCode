@@ -1,4 +1,4 @@
-package solution.num23;
+package solution.num1_100.num23;
 
 import baseclass.ListNode;
 

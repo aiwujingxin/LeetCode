@@ -1,4 +1,4 @@
-package solution.num01;
+package solution.num1_100.num01;
 
 public class TowSum {
 

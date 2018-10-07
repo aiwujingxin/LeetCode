@@ -1,4 +1,4 @@
-package solution.num47;
+package solution.num1_100.num47;
 
 import java.util.ArrayList;
 import java.util.Arrays;
